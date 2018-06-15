@@ -10,7 +10,7 @@ prepareOutputs <- function(args){
   ##
   ## DB names
   dbname <- paste0(args[3],"/",args[2], "_",db.period,".db")
-  cat(paste0("Output DB ............. ", dbname,"\n"))
+  cat(paste0("Output DB: ", dbname,"\n"))
   ##
   ## Connect to output databases
   m <- dbDriver("SQLite")
