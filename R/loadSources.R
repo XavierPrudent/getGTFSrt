@@ -23,8 +23,3 @@ suppressMessages(library(fasttime))
 suppressMessages(library(RSQLite))
 suppressMessages(library(R.utils))
 setOption("dplyr.show_progress",FALSE)
-#####################################
-## Sources
-source("inputs.R")
-source("outputs.R")
-source("processor.R")
