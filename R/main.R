@@ -34,8 +34,8 @@ cat("\n")
 #####################################
 ## Sources
 source(paste(args[5],"/loadSources.R",sep=""))
-source(paste(args[5],"outputs.R",sep=""))
-source(paste(args[5],"processor.R",sep=""))
+source(paste(args[5],"/outputs.R",sep=""))
+source(paste(args[5],"/processor.R",sep=""))
 
 ##
 ## Prepare output DB
