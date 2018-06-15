@@ -28,7 +28,7 @@ cat(paste0("Web link .............. ", args[1], "\n"))
 cat(paste0("Type of gtfs-rt........ ", args[2], "\n"))
 cat(paste0("Output dir for DB ..... ", args[3], "\n"))
 cat(paste0("Proto file for gtfs ... ", args[4], "\n"))
-cat(paste0("Path to tool....... ... ", args[5], "\n"))
+cat(paste0("Path to tool........... ", args[5], "\n"))
 cat("\n")
 
 #####################################
@@ -52,5 +52,6 @@ while(TRUE){
   saveGTFSrt(db.out, GTFSrt.data)
   ##
   ## Wait for 15 sec
+  cat(" ---- Waiting for 15sec...\n")
   Sys.sleep(15)
 }
